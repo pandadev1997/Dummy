@@ -3,6 +3,7 @@ package Demo;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
 public class Myp1Test {
@@ -20,7 +21,9 @@ public class Myp1Test {
 			driver=new ChromeDriver();
 		}else if(BROWSER.equalsIgnoreCase("edge"))
 		{
-			driver=new EdgeDriver();
+			EdgeOptions option = new EdgeOptions();
+			option.addArguments("--remote-allow-origins=*");
+			driver=new EdgeDriver(option);
 		}else {
 			driver=new ChromeDriver();
 		}
