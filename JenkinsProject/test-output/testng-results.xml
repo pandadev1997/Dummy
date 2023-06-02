@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-02T11:18:29 IST" name="Default suite" finished-at="2023-06-02T11:18:29 IST" duration-ms="41">
+  <suite started-at="2023-06-02T11:41:16 IST" name="Default suite" finished-at="2023-06-02T11:41:16 IST" duration-ms="53">
     <groups>
     </groups>
-    <test started-at="2023-06-02T11:18:29 IST" name="Default test" finished-at="2023-06-02T11:18:29 IST" duration-ms="41">
-      <class name="Demo.MYp2Test">
-        <test-method signature="m2()[pri:0, instance:Demo.MYp2Test@4d02f94e]" started-at="2023-06-02T11:18:29 IST" name="m2" finished-at="2023-06-02T11:18:29 IST" duration-ms="7" status="PASS">
+    <test started-at="2023-06-02T11:41:16 IST" name="Default test" finished-at="2023-06-02T11:41:16 IST" duration-ms="53">
+      <class name="Demo.Myp3Test">
+        <test-method signature="m3()[pri:0, instance:Demo.Myp3Test@f0da945]" started-at="2023-06-02T11:41:16 IST" name="m3" finished-at="2023-06-02T11:41:16 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m2 -->
-      </class> <!-- Demo.MYp2Test -->
+        </test-method> <!-- m3 -->
+      </class> <!-- Demo.Myp3Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
